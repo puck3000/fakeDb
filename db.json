@@ -1,3 +1,115 @@
 {
-    "exam": 1
+    "exams": [{
+            "id": 1,
+            "title": "SWEN1 SEP 2019",
+            "questions": [{
+                    "id": 1,
+                    "title": "Das ist eine Frage",
+                    "replied": false,
+                    "text": "Das ist die eigentliche Fragestellung",
+                    "answers": [{
+                            "id": 1,
+                            "reply": "Das ist eine Antwortmöglichkeit",
+                            "response": false
+                        },
+                        {
+                            "id": 2,
+                            "reply": "Das ist eine andere Antwortmöglichkeit",
+                            "response": false
+                        },
+                        {
+                            "id": 3,
+                            "reply": "Das ist eine gute Antwortmöglichkeit",
+                            "response": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Das ist eine andere Frage",
+                    "replied": false,
+                    "text": "Das ist die eigentliche Fragestellung",
+                    "answers": [{
+                            "id": 1,
+                            "reply": "Das ist eine Antwortmöglichkeit",
+                            "response": false
+                        },
+                        {
+                            "id": 2,
+                            "reply": "Das ist eine andere Antwortmöglichkeit",
+                            "response": false
+                        },
+                        {
+                            "id": 3,
+                            "reply": "Das ist eine gute Antwortmöglichkeit",
+                            "response": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Das ist eine gute Frage",
+                    "replied": false,
+                    "text": "Das ist die eigentliche Fragestellung",
+                    "answers": [{
+                            "id": 1,
+                            "reply": "Das ist eine Antwortmöglichkeit",
+                            "response": false
+                        },
+                        {
+                            "id": 2,
+                            "reply": "Das ist eine andere Antwortmöglichkeit",
+                            "response": false
+                        },
+                        {
+                            "id": 3,
+                            "reply": "Das ist eine gute Antwortmöglichkeit",
+                            "response": false
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "title": "COM COM Just for fun 2019",
+        "questions": [{
+                "id": 1,
+                "title": "Das ist eine Frage",
+                "replied": false
+            },
+            {
+                "id": 2,
+                "title": "Das ist eine andere Frage",
+                "replied": false
+            },
+            {
+                "id": 3,
+                "title": "Das ist eine gute Frage",
+                W: false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "WING SEP 2019",
+        "questions": [{
+                "id": 1,
+                "title": "Das ist eine Frage",
+                "replied": false
+            },
+            {
+                "id": 2,
+                "title": "Das ist eine andere Frage",
+                "replied": false
+            },
+            {
+                "id": 3,
+                "title": "Das ist eine gute Frage",
+                W: false
+            }
+        ]
+    }
+]
 }
